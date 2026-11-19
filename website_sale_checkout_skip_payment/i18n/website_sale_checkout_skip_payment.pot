@@ -78,6 +78,14 @@ msgstr ""
 
 #. module: website_sale_checkout_skip_payment
 #. odoo-python
+#: code:addons/website_sale_checkout_skip_payment/controllers/main.py:0
+msgid ""
+"Order %s is cancelled and cannot be confirmed. Go back to the shop to create "
+"a new order."
+msgstr ""
+
+#. module: website_sale_checkout_skip_payment
+#. odoo-python
 #: code:addons/website_sale_checkout_skip_payment/models/website.py:0
 msgid "Our team will check your order and send you payment information soon."
 msgstr ""
