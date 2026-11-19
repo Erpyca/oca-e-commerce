@@ -51,6 +51,12 @@ msgid "Contact"
 msgstr ""
 
 #. module: website_sale_checkout_skip_payment
+#. odoo-python
+#: code:addons/website_sale_checkout_skip_payment/controllers/main.py:0
+msgid "Could not confirm order %(name)s: %(reason)s"
+msgstr ""
+
+#. module: website_sale_checkout_skip_payment
 #: model:ir.model.fields,help:website_sale_checkout_skip_payment.field_res_config_settings__website_sale_checkout_payment_skip_message
 #: model:ir.model.fields,help:website_sale_checkout_skip_payment.field_website__website_sale_checkout_payment_skip_message
 msgid ""
