@@ -60,9 +60,25 @@ msgid "Contact"
 msgstr "Contacto"
 
 #. module: website_sale_checkout_skip_payment
+#. odoo-python
+#: code:addons/website_sale_checkout_skip_payment/controllers/main.py:0
+msgid "Could not confirm order %(name)s: %(reason)s"
+msgstr "No se pudo confirmar el pedido %(name)s: %(reason)s"
+
+#. module: website_sale_checkout_skip_payment
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_skip_payment.res_config_settings_view_form
 msgid "Message shown to the user when the purchase is finished"
 msgstr "Mensaje mostrado al usuario cuando finaliza la compra"
+
+#. module: website_sale_checkout_skip_payment
+#. odoo-python
+#: code:addons/website_sale_checkout_skip_payment/controllers/main.py:0
+msgid ""
+"Order %s is cancelled and cannot be confirmed. Go back to the shop to create "
+"a new order."
+msgstr ""
+"El pedido %s está cancelado y no se puede confirmar. Vuelva a la tienda para "
+"preparar un pedido nuevo."
 
 #. module: website_sale_checkout_skip_payment
 #. odoo-python

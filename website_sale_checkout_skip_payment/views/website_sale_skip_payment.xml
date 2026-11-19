@@ -8,7 +8,13 @@
             <div id="wrap">
                 <div class="container oe_website_sale">
                     <div class="row">
-                        <div class="alert alert-danger" role="alert">
+                        <div
+                            t-if="reason"
+                            class="alert alert-danger"
+                            role="alert"
+                            t-out="reason"
+                        />
+                        <div t-else="" class="alert alert-danger" role="alert">
                             <strong>Error!</strong> An error occurred trying to
                             confirm the sale order.
                         </div>

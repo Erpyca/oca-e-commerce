@@ -72,7 +72,7 @@
             >
                 <form
                     name="o_wsale_confirm_order"
-                    class="d-flex flex-column"
+                    class="d-flex flex-column js_website_submit_form"
                     target="_self"
                     action="/shop/confirmation"
                     method="post"
@@ -81,6 +81,11 @@
                         type="hidden"
                         name="csrf_token"
                         t-att-value="request.csrf_token()"
+                    />
+                    <input
+                        type="hidden"
+                        name="order_id"
+                        t-att-value="website_sale_order.id"
                     />
                     <button
                         name="o_payment_submit_button"
